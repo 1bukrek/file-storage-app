@@ -1,0 +1,24 @@
+# Node.js specific
+node_modules/
+
+# Log files
+*.log
+
+# Uploads folder (user-uploaded files), if it's inside server/
+server/uploads/
+
+# SQLite Database (if you're using SQLite, not MySQL)
+*.sqlite
+
+# macOS specific files
+.DS_Store
+
+# IDE and editor specific files (e.g., Visual Studio Code)
+.vscode/
+.idea/
+
+# npm debug log
+npm-debug.log*
+
+# Optional: You can also ignore test or coverage files if needed
+coverage/
