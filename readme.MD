@@ -4,9 +4,13 @@ This app allows users to upload images to server and view them. Dependencies are
 
 Upload `.jpeg` and `.jpg` files using existing form on the home page (/). View uploaded images by going to `/uploads/filename` address.
 
-## Attention: Uploaded Files
+### Storage
 
-Files need to store under a folder called `server/uploads/`.
+Files can be up to 5 MBs and currently two formats are supporting.
+
+### Attention: Upload Folder
+
+Files need to store under `server/uploads/` folder.
 
 ## Setup for Development/Local hosting
 

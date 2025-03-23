@@ -1,49 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #eef1f7;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 20px;
 }
 
 .upload-container {
-    background-color: white;
+    background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #222;
+    font-weight: bold;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.75rem;
 }
 
 input[type="file"] {
     display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fafafa;
+    cursor: pointer;
 }
 
 button {
     width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
+    padding: 6px;
+    background: #ffffff;
+    color: #222;
+    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    transition: background 0.2s ease-in-out;
 }
 
 button:hover {
-    background-color: #45a049;
+    background: #f0f0f0;
 }
 
 .message {
-    text-align: center;
-    margin-top: 20px;
+    margin-top: 12px;
+    font-size: 14px;
     color: green;
 }
